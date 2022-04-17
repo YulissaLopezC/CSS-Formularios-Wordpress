@@ -1,0 +1,109 @@
+/*codigo correspondiente a las modificaciones de estilo a formulario construido con ninja forms*/
+:root{
+	--color-negro: black;
+	--color-violeta: blueviolet;
+	--wp--preset--color--light-green-cyan: #7bdcb5;
+}
+
+.post-header{
+	display: flex;
+	flex-direction: column;
+}
+
+.post-date{
+	align-self:flex-end;
+}
+
+.post-title{
+	align-self:center;
+}
+
+#nf-form-title-2{
+	display:flex;
+	justify-content:center;
+}
+
+#nf-form-title-2 h3{
+	color:green;
+}
+
+.nf-before-form-content{
+	/*border: 2px solid black;*/
+	text-align: center;
+}
+
+.nf-form-fields-required{
+	font-style: italic;
+}
+
+span.ninja-forms-req-symbol{
+	color: var(--wp--preset--color--light-green-cyan);
+}
+
+.nf-form-title{
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+#nf-label-field-16{
+	font-size:16px;
+	
+}
+
+.ninja-forms-field{
+	width:100%;
+	background: rgba(255,0,0,0.5);
+}
+
+
+.nf-checked-label{
+	color: #4F8A10;
+}
+
+#nf-field-17-wrap .nf-field-element{
+	display: flex;
+	justify-content: center;
+}
+
+#nf-field-17{
+	/*border: 2px black solid;*/
+	width: 50%;
+	background-color: red;
+	
+}
+
+#nf-field-17:hover{
+	color:red;
+	background: white;
+	transition: all .3s;
+	border: 2px solid red;
+	
+}
+
+.nf-response-msg{
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	border: 0;
+	text-align:center;
+	
+}
+
+.nf-response-msg p{
+	padding: 10px;
+	
+}
+
+/*ocultar tabs y seccion comentarios*/
+
+.post-meta-tabs {
+    display: none;
+}
+
+.tab-selector {
+    display: none;
+}
+
+.credits{
+	display: none;
+}

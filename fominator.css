@@ -1,0 +1,63 @@
+/*codigo correspondiente a las modificaciones de estilo a formulario construido con forminator*/
+form{
+    background: rgba(255,255,255,0.3);
+    padding: 3em;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.forminator-field{
+   /* border: 2px black solid;*/
+    display: flex;
+    flex-direction: column;
+     width: 450px;
+}
+
+ .forminator-input {
+      background: transparent;
+      width: 450px;
+      padding: 15px;
+      margin-bottom: 0.3em;
+      border: none;
+      border-left: 1px solid rgba(255,255,255,0.3);
+      border-top: 1px solid rgba(255,255,255,0.3);
+      border-radius: 5000px;
+      backdrop-filter: blur(5px);
+      box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+      color: #000;
+      font-family: Montserrat, sans-serif;
+      font-weight: 500;
+      transition: all 0.2s ease-in-out;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+      font-size: 16px;
+      outline:none;
+ }
+ 
+.forminator-button{
+   background: transparent;
+   width: 50%;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   cursor:pointer;
+   padding:15px;
+   border-left: 1px solid rgba(255,255,255,0.3);
+   border-top: 1px solid rgba(255,255,255,0.3);
+   border-radius: 5000px;
+   backdrop-filter: blur(5px);
+   box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+   color: #000;
+   border: none;
+   font-weight:500;
+   text-align: center;
+ }
+ 
+ .forminator-button:hover{
+      background: rgba(255,255,255,0.2);
+ }
